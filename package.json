@@ -1,9 +1,9 @@
 {
-  "name": "getOrElse",
+  "name": "getorelse",
   "version": "1.0.0",
   "description": "A simple module which returns the first defined argument you pass.",
   "main": "index.js",
-  "repository": "git@github.com:lrecknagel/getOrElse.git",
+  "repository": "git@github.com:lrecknagel/getorelse.git",
   "author": "Lucas Recknagel <lucas91@me.com>",
   "license": "THE UNLICENSE",
   "engines": {
