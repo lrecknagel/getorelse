@@ -12,15 +12,15 @@ where I'have iterated thousands of items. So I created this little module which 
 ## Installation
 
 ```bash
-yarn add getOrElse
+yarn add getorelse
 # OR
-npm i -S getOrElse
+npm i -S getorelse
 ```
 
 ## API Reference
 
 ```js
-const getOrElse = require('getOrElse')
+const getOrElse = require('getorelse')
 
 // DEFAULT_VALUE can be any js object you like to return (a string, object, array, function ...)
 // argument1 - argumentN can be as many arguments as you like to pass. Like plain variables or function results
