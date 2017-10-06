@@ -5,15 +5,15 @@ test('no arguments (no default and 0 args) should return undefined', () => {
 });
 
 test('default argument "STRING" and 0 args should return "STRING"', () => {
-  expect(getOrElse("STRING")).toBe("STRING");
+  expect(getOrElse('STRING')).toBe('STRING');
 });
 
 test('default argument "STRING" and 1st arg undefined and 2nd arg "2ndString" should return "2ndString"', () => {
-  expect(getOrElse("STRING", undefined, "2ndString")).toBe("2ndString");
+  expect(getOrElse('STRING', undefined, '2ndString')).toBe('2ndString');
 });
 
 function getLower2(array) {
-  return array.filter(e => e < 2).length > 0 ? array[0] : undefined
+  return array.filter(e => e < 2).length > 0 ? array[0] : undefined;
 }
 
 test('no default argument and 5 function results where 4 and 5 resolve should return the 4th result"', () => {
