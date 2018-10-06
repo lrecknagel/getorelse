@@ -14,7 +14,7 @@ where I'have iterated thousands of items. So I created this little module which 
 ```bash
 yarn add getorelse
 # OR
-npm i -S getorelse
+npm i getorelse
 ```
 
 ## API Reference
